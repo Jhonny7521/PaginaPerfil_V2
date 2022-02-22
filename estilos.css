@@ -1,0 +1,271 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Akaya Telivigala', cursive;
+}
+/* ----- header ----- */
+header {
+    background-color: darkorange;
+    padding: 4px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-title {
+    color: white;
+    margin-right: 10px ;
+    margin-bottom:  0px;
+}
+
+.btn{
+    display: flex;
+    align-items: center; 
+}
+
+.active {
+    color: white;
+}
+
+a {
+    color: gainsboro;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 0px 10px;
+}
+
+/* ------ Body ------*/
+
+.body {
+    width: 600px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+} 
+
+/* - Columna 01 - */
+
+.colum01 {
+    width: 390px;
+}
+
+.tarjetaUsuario {
+    width: 390px;
+    height: 290px;
+}
+
+.card-header{
+    background-color: skyblue;
+    height: 70px;
+    border-radius: 3px;
+    border: 2px solid skyblue;
+}
+
+.card-body{
+
+    height: 170px;
+    padding-top: 45px;
+    padding-left: 25px;
+    border: 2px solid gray;
+    border-top: 0px ;
+}
+
+.img01{
+    width: 80px;
+    height: 80px;
+    border: 4px solid grey;
+    border-radius: 50%;
+    position: relative;
+    top: 25px;
+    left: 25px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 10px 0px;
+}
+
+.icono {
+    width: 10px;
+    margin-right: 10px;
+}
+
+.icono02 {
+    width: 15px;
+    margin-right: 10px;
+}
+
+.pEnlace{
+    margin: 10px 0px;
+}
+
+.pEnlace a {
+    color: blue;
+}
+
+/* - Columna 02 - */
+
+/* -- Conection request -- */
+.colum02 {
+    width: 190px ;
+}
+
+.CR-header{
+    background-color: darkslategrey;
+    padding: 0px 5px;
+    display: flex;
+    align-items: center;
+}
+
+.CR-body{
+    border: 2px solid darkslategrey ;
+    height: 100px;
+}
+
+.CR-row01{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px ;
+}
+
+.icono-02 {
+    background-color: gainsboro;
+    width: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 0px 7px;
+    padding-bottom: 2px;
+}
+
+.CR-text{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.R01-02 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.imgContact {
+    width: 30px;
+    border-radius: 50%;
+    margin: 5px 5px;
+}
+
+.iconos{
+    width: 25px;
+    margin: 8px 3px;
+}
+
+ul{
+    display: block;
+    align-items: center;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    margin: 0px 4px;
+}
+
+/* -- Your connections -- */
+
+.yourConnections{
+margin-top: 20px;
+}
+
+.yc-header{    
+    background-color: darkslategrey;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.icono-500 {
+    background-color: gainsboro;
+    color: black;
+    border-radius: 50%;
+    width: 45px;
+    margin: auto 10px;
+    padding-bottom: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.yc-body {
+    border: 2px solid darkslategrey;
+}
+
+.yc-footer{
+    border: 2px solid darkslategrey;
+    border-top: none ;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.yc-footer a{
+    color: blue;
+    text-decoration: underline;
+    margin-left : 15px;
+}
+
+/* -- Educations -- */
+
+.ed-header {
+    background-color: darkslategrey ;
+    height: 40px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.ed-body {
+    border: 2px solid darkslategrey;
+    padding: 10px 20px;
+}
+
+.ed-p {
+    color: white;
+    margin: 0px 25px;
+}
+
+h4{
+    margin-bottom: 5px;
+}
+
+.body-p01 {
+    font-size: 20px;
+}
+
+.body-p02 {
+    color: grey;
+}
